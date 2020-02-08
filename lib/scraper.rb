@@ -1,9 +1,9 @@
-require 'nokogiri'
-require 'open-uri'
+# require 'nokogiri'
+# require 'open-uri'
 
-#html = open("https://flatironschool.com/")
+# #html = open("https://flatironschool.com/")
 
-doc = nokogiri::HTML(open("https://flatironschool.com/"))
+# doc = nokogiri::HTML(open("https://flatironschool.com/"))
 
-doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")
+# doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")
 
