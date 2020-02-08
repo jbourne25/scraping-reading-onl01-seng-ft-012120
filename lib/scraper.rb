@@ -5,3 +5,4 @@ require 'open-uri'
 
 doc = nokogiri::HTML(open("https://flatironschool.com/"))
 doc.css(".headline-260IBN")
+
